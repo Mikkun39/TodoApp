@@ -13,6 +13,7 @@
 		BDDAB13B25187B3F00F787A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDDAB13925187B3F00F787A4 /* Main.storyboard */; };
 		BDDAB13D25187B4100F787A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDDAB13C25187B4100F787A4 /* Assets.xcassets */; };
 		BDDAB14025187B4100F787A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDDAB13E25187B4100F787A4 /* LaunchScreen.storyboard */; };
+		BDDAB14825187C3700F787A4 /* AddToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDAB14725187C3700F787A4 /* AddToDoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		BDDAB13C25187B4100F787A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDDAB13F25187B4100F787A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BDDAB14125187B4100F787A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDDAB14725187C3700F787A4 /* AddToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToDoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				BDDAB13C25187B4100F787A4 /* Assets.xcassets */,
 				BDDAB13E25187B4100F787A4 /* LaunchScreen.storyboard */,
 				BDDAB14125187B4100F787A4 /* Info.plist */,
+				BDDAB14725187C3700F787A4 /* AddToDoViewController.swift */,
 			);
 			path = TodoApp;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDDAB14825187C3700F787A4 /* AddToDoViewController.swift in Sources */,
 				BDDAB13825187B3F00F787A4 /* ViewController.swift in Sources */,
 				BDDAB13425187B3F00F787A4 /* AppDelegate.swift in Sources */,
 				BDDAB13625187B3F00F787A4 /* SceneDelegate.swift in Sources */,
